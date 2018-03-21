@@ -1,0 +1,25 @@
+table.availabilityCalendarDay tbody tr td.timeColumnDAYVIEW{
+    width:.2%;
+    font-size: 80%;
+
+}
+table.availabilityCalendarDay tbody tr td div.dayViewTDDiv{
+    min-width: 40px
+
+}
+
+table.availabilityCalendarMonth tbody tr td{
+}
+
+table.availabilityCalendar tbody tr td.diffMonth{
+    color: rgba(0, 0, 0, 0.35);
+}
+table.availabilityCalendar tbody tr td.today{
+    background-color:rgba(5, 146, 239, 0.15);
+}
+table.availabilityCalendar tbody tr td div.calendarTDDate{
+    width:20px;
+}
+div.panel div table{
+    margin-bottom: 0px;
+}

@@ -1,0 +1,28 @@
+#pageWrapper{
+	margin:10px;
+	overflow:hidden;
+	padding-top:30px;
+}
+
+.customMenuItem{
+	width:100px; 
+	vertical-align: middle; 
+	float:left;
+	margin:10px;
+}
+ 
+tbody tr{
+	cursor: pointer; cursor: hand; 
+}
+
+table.availabilityCalendar{
+	pointer-events:none;
+}
+
+.table tbody > tr > td{
+	border-top: 1px solid #C7C7C7;
+}
+
+.table tbody > tr > td, .table thead > tr > th{
+	padding-left:15px;
+}

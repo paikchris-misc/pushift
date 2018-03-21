@@ -1,0 +1,397 @@
+#pageWrapper{
+	margin:10px;
+	overflow:hidden;
+	padding-top:30px;
+}
+.hidden{
+	display:none;
+}
+
+.viewType{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.customMenuItem{
+	width:100px; 
+	vertical-align: middle; 
+	float:left;
+	margin:10px;
+}
+ 
+.button{
+	width:100px; 
+	height:30px; 
+	background:#FFFFFF; 
+	border-radius: 3px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px;  
+}
+a.button {
+    color: black;
+	text-decoration: none;
+}
+.topMenu{
+	margin-left:150px;
+	padding:10px
+}
+
+.sidebarWrapper{
+	width:150px;
+	height: 100%;
+	z-index: 1000;
+    position: fixed;
+    background: #16202B;
+}
+.sidebarWrapper a{
+	color: #FFFFFF
+	
+}
+.sidebarWrapper nav ul li ul{
+	margin-left:-20px;
+}
+.sidebarWrapper nav ul li ul li {
+	border-radius:5px;
+	padding: 8px;
+	margin-top: 3px;
+	list-style-type: none
+}
+.sidebarWrapper nav ul li ul a {
+	 text-decoration: none;
+	}
+	
+.sidebarWrapper nav ul li ul li:hover{
+	background-color: #c3d8e8;
+}
+.modal-backdrop {
+  z-index: -1;
+}
+#page-content-wrapper{
+	width: -moz-calc(100% - 150px);
+    width: -webkit-calc(100% - 150px);
+    width: calc(100% - 150px);
+	min-width: 1024px;
+    position: absolute;
+    padding: 15px;
+    margin-left: 150px;
+}
+#unavailableGradient{
+	
+}
+
+
+#brand{
+	padding:14px;
+	font-size: 17px;
+	color: #FFFFFF;
+}
+
+div#monthHeader{ 
+    padding-top: 0px;
+    text-align: center;
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+table.availabilityCalendar thead tr td{
+	text-align:center;
+    border-right: 1px solid #d3dee9;
+    
+}
+table.availabilityCalendar thead tr td.dayLabel{
+	text-align:center;
+    border-right: 1px solid #d3dee9;
+    min-width:100px;
+	background-color: #ebeffa;
+}
+
+table.availabilityCalendar tbody tr td{
+    border-right: 1px solid #d3dee9; 
+    border-top: 1px dashed #d3dee9;
+    width:10%;
+    position:relative;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+table.availabilityCalendarEmployee tbody tr td
+table.availabilityCalendarEmployee tbody tr td.employeeViewNameColumn{
+	border-right: 1px solid #d3dee9;
+	border-top: 1px dashed #d3dee9;
+	width:10%;
+	position:relative;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+table.availabilityCalendar tbody tr td.timeBlock{
+}
+table.availabilityCalendar tbody tr td.topOfHour{
+	border-right: 1px solid #d3dee9; 
+    border-top: 1px solid #d3dee9;
+}
+table.availabilityCalendar tbody tr td.topOfShift{
+	border-right: 2px solid #d3dee9; 
+    border-top: 2px solid #d3dee9;
+    border-left: 2px solid #d3dee9;
+    border-bottom: 1px solid #ffffff;
+}
+table.availabilityCalendar tbody tr td.bodyOfShift{
+	border-right: 2px solid #d3dee9; 
+    border-left: 2px solid #d3dee9;
+    border-bottom: 1px solid #ffffff;
+}
+table.availabilityCalendar tbody tr td.bottomOfShift{
+	border-right: 2px solid #d3dee9; 
+    border-left: 2px solid #d3dee9;
+    border-bottom: 2px solid #d3dee9;
+}
+
+table.availabilityCalendar tbody tr td.timeColumn{
+	width:3%;
+	padding-bottom: 10px;
+  	padding-top: 0;
+	font-size: 80%;
+	overflow: hidden;
+	white-space: nowrap;
+	background-color: #ebeffa;
+}
+.timeColumn{
+	background-color: #ebeffa;
+}
+tbody tr td.unavailableGradient:hover { 
+	background-color: #e1e1e1
+}
+tbody tr td.availableGradient:hover { 
+	background-color: #e1e1e1
+}
+
+tbody tr td div.unavailableBlock {
+	background-color: #AF2121; 
+	overflow:hidden;
+	color: #FFFFFF;
+	position:absolute;
+	height:98%; 
+	z-index:80; 
+	left:0px; 
+	top:-1px;
+	border-radius: 5px;
+	padding-left: 4px;
+	font-size: 12px;
+	
+	
+	/*shadow*/
+	-webkit-box-shadow: 0 3px 7px -1px black;
+     -moz-box-shadow: 0 3px 7px -1px black;
+          box-shadow: 0 3px 7px -1px black;
+/* background: -webkit-linear-gradient(#f55454, #f97979); /* For Safari 5.1 to 6.0 */
+/*  background: -o-linear-gradient(#f55454, #f97979); /* For Opera 11.1 to 12.0 */
+/*  background: -moz-linear-gradient(#f55454, #f97979); /* For Firefox 3.6 to 15 */
+/*  background: linear-gradient(#f55454, #f97979); /* Standard syntax */
+
+}
+
+tbody tr td div.shiftBlockMonthView {
+	background-color: #0B2B4D;
+	overflow:hidden;
+	color: #D1D1D2;
+	/* position:absolute; */
+	height:98%;
+	z-index:80;
+	left:0px;
+	/* top:-1px; */
+	border-radius: 5px;
+	padding-left: 4px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	/* marign-left:7px; */
+	font-size: 12px;
+
+
+	/*shadow*/
+	-webkit-box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.74);
+	-moz-box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.74);
+	box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.74);
+	/* background: -webkit-linear-gradient(#f55454, #f97979); /* For Safari 5.1 to 6.0 */
+	/*  background: -o-linear-gradient(#f55454, #f97979); /* For Opera 11.1 to 12.0 */
+	/*  background: -moz-linear-gradient(#f55454, #f97979); /* For Firefox 3.6 to 15 */
+	/*  background: linear-gradient(#f55454, #f97979); /* Standard syntax */
+
+}
+
+tbody tr td div.shiftBlock {
+	background-color: #0B2B4D; 
+	overflow:hidden;
+	color: #D1D1D2;
+	position:absolute;
+	height:98%; 
+	z-index:80; 
+	left:0px; 
+	top:-1px;
+	border-radius: 5px;
+	padding-left: 4px;
+	font-size: 12px;
+	
+	
+	/*shadow*/
+	-webkit-box-shadow: 0 3px 7px -1px black;
+     -moz-box-shadow: 0 3px 7px -1px black;
+          box-shadow: 0 3px 7px -1px black;
+/* background: -webkit-linear-gradient(#f55454, #f97979); /* For Safari 5.1 to 6.0 */
+/*  background: -o-linear-gradient(#f55454, #f97979); /* For Opera 11.1 to 12.0 */
+/*  background: -moz-linear-gradient(#f55454, #f97979); /* For Firefox 3.6 to 15 */
+/*  background: linear-gradient(#f55454, #f97979); /* Standard syntax */
+
+}
+
+ tbody tr td div.shiftBlock div span#shiftTypeDisplay{
+	font-weight:bold;
+}
+tbody tr td div.shiftBlock div span#numOfEmployees{
+	
+}
+tbody tr td div.shiftBlock span#notesDisplay{
+	pointer-events: none;
+	font-size: 11px;
+}
+
+
+.availableGradient {
+	background-color: rgba(92, 184, 92, 0.62); 
+/*  background: -webkit-linear-gradient(#4e924e, #4ead53); /* For Safari 5.1 to 6.0 */
+/*  background: -o-linear-gradient(#4e924e, #4ead53); /* For Opera 11.1 to 12.0 */
+/*  background: -moz-linear-gradient(#4e924e, #4ead53); /* For Firefox 3.6 to 15 */
+/*  background: linear-gradient(#4e924e, #4ead53); /* Standard syntax */
+}
+
+div.eventPopover{
+	width:200px;
+	font-size: 12px;
+}
+
+div.event div.ui-resizable-handle{
+	height:10px;
+}
+
+div.squishedDisplay{
+    margin-left: 1px;
+    font-weight: bold;
+    font-size: 15px; 
+    color: #E6E6E6;
+    line-height: 1.3;
+}
+div.squishedDisplay.squishedShiftType{
+	margin-top: 7px;
+}
+div.squishedDisplay.squishedNumEmployees{
+	font-size: 12px;
+	margin-left: 3px;
+	margin-top: 1px;
+}
+div.squishedDisplay.employeesScheduled{
+	margin-top: 10px;
+    margin-left: -2px;
+    font-size: 10px; 
+}
+
+div.eventBlockInnerDiv.employeesScheduled{
+	margin-top: 10px;
+    margin-left: -2px;
+    font-weight: ;
+    color: #E6E6E6;
+    line-height: 1.3;
+}
+
+/* Start by setting display:none to make this hidden. 
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modalLoad {
+    display:    none;
+    position:   absolute;
+    z-index:    1000;
+    height:     100%;
+    width:      95%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('loading.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modalLoad {
+    display: block;
+}
+
+.monthViewAvatarPicture{
+	width:60px;
+	height:60px;
+	border-radius: 50%;
+}
+.avatarCircle{
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+}
+.employeeViewEmployeeAvatar{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.employeeViewEmployeeName{
+	width: 50%;
+	margin: 0 auto;
+	font-weight: bold;
+
+}
+
+.createScheduleButtonRow{
+	margin-top:0px;
+	margin-bottom:15px;
+}
+table.availabilityCalendarDay tbody tr td.dayViewTimeColumn{
+	width:.2%;
+	font-size: 80%;
+
+}
+table.availabilityCalendarDay tbody tr td div.dayViewTDDiv{
+	min-width: 40px
+
+}
+
+table.availabilityCalendarMonth tbody tr td{
+}
+
+table.availabilityCalendar tbody tr td.diffMonth{
+	color: rgba(0, 0, 0, 0.35);
+}
+table.availabilityCalendar tbody tr td.today{
+	background-color:rgba(5, 146, 239, 0.15);
+}
+table.availabilityCalendar tbody tr td.calendarCell{
+	height: 150px;
+}
+table.availabilityCalendar tbody tr td div.calendarTDDate{
+	width:20px;
+}
+div.panel div table{
+	margin-bottom: 0px;
+}
+
+
+

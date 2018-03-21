@@ -1,0 +1,14 @@
+<plugin name='facebook-connect' version='0.2' grailsVersion='1.3.3 &gt; *'>
+  <author>Ahmet Taha Sakar</author>
+  <authorEmail>ahmet@200iq.com</authorEmail>
+  <title>Facebook Connect</title>
+  <description>Provides simple authentication using Facebook Connect</description>
+  <documentation>http://grails.org/FacebookConnect+Plugin</documentation>
+  <resources>
+    <resource>UrlMappings</resource>
+    <resource>FacebookConnectService</resource>
+    <resource>FacebookTagLib</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
